@@ -1,0 +1,369 @@
+body {
+  background-color: #01142e;
+}
+
+.wrapper--navbar {
+  background-color: transparent;
+}
+
+.wrapper--home {
+  height: 100vh;
+  background: url("../img/pauji-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper--employee {
+  height: 100vh;
+  background-color: #01142e;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.wrapper--skill {
+  width: 100%;
+  height: 100%;
+  background: url('../img/skill-bg.png') no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.wrapper--contact {
+  height: 100%;
+  background-color: #01142e;
+}
+
+.wrapper--about {
+  height: 100vh;
+  background: url('../img/about.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper--project {
+  height: 100%;
+  background-color: #01142e;
+}
+
+.wrapper--navbar-brand_img {
+  width: 60px;
+  height: 78px;
+}
+
+
+.wrapper--navbar-button a:hover,
+.wrapper--navbar-button a:active {
+  color: #4cc9f0 !important;
+}
+
+.wrapper--image {}
+
+.wrapper--information {
+  padding: 0 10%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper--home-content {
+  margin-top: 10%;
+}
+
+.wrapper--information-job_text {
+  color: #8db7de;
+}
+
+/* .wrapper--information-button {
+  width: 34.5rem;
+  height: 5rem;
+}
+
+.wrapper--information-button .btn-me {
+  posi
+} */
+
+.active-nav {
+  color: #4cc9f0;
+}
+
+.social-media-icon {
+  padding: 2px 3px 1px 3px;
+  background: #222;
+  color: #fff;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+a.social-media-icon:hover {
+  background: #fff !important;
+  color: #222 !important;
+}
+
+.facebook {
+  background: #3c5a98 !important;
+}
+
+.twitter {
+  background: #1da1f2 !important;
+}
+
+.blogger {
+  background: #ff5722 !important;
+  ;
+}
+
+.instagram {
+  background: #262626 !important;
+  ;
+}
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .wrapper--about {
+    height: 100%;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .wrapper--home {
+    background-image: url('../img/bg.png');
+  }
+
+  .wrapper--about {
+    background-image: url('../img/bg.png');
+  }
+
+  .wrapper--skill {
+    background-image: url('../img/bg.png');
+  }
+}
+
+.btn-submit {
+  border: 0;
+  margin: 0;
+  padding: 2px 1.5rem;
+  background-color: #69231b;
+  color: white;
+  font-weight: bold;
+  border-radius: 10%;
+}
+
+.btn-add {
+  width: 25%;
+  border: 0;
+  margin: 0;
+  padding: 2px 1.5rem;
+  background-color: #69231b;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-add:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.btn-main {
+  border: 0;
+  margin: 0;
+  padding: 5px 1.5rem;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+  border-radius: 10%;
+}
+
+.aktif {
+  background-color: #69231b !important;
+  color: white !important;
+}
+
+.btn-main:hover {
+  background-color: #69231b;
+  color: white;
+  transition: 1s;
+}
+
+/* 
+.myButton {
+  background-color: #69231b;
+} */
+
+.buttonMe {
+  --color: #69231B;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+}
+
+.button-container a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.buttonMe:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.buttonMe:hover {
+  color: #fff;
+}
+
+.buttonMe:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+}
+
+.buttonMe:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.buttonMe:active:before {
+  background: #69231B;
+  transition: background 0s;
+}
+
+
+.buttonSign {
+  --primary-color: #69231B;
+  --secondary-color: #fff;
+  --hover-color: #111;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: bold;
+  margin: auto;
+}
+
+.buttonSign .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonSign .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: var(--primary-color);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+.buttonSign .arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+.buttonSign:hover {
+  background-color: var(--hover-color);
+}
+
+.buttonSign:hover .arrow {
+  background: var(--secondary-color);
+}
+
+.buttonSign:hover .arrow:before {
+  right: 0;
+}
+
+.side-left {
+  background: url('../image/cat.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.card-tag {
+  text-align: center;
+  color: white;
+  width: 15rem;
+  height: 15rem;
+  background-color: #69231B;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5.5rem 0 !important;
+}
+
+.card-tag h1 {
+  font-size: 2.5rem;
+}
+
+.card-container {
+  background-color: transparent !important;
+  border: 0;
+}
+
+.header-card {
+  border-radius: 0% 1rem 0% 0%;
+}
+
+.footer-card {
+  border-radius: 0% 0% 1rem 0%;
+
+}
+
+
+.bg-main {
+  background-color: #69231b
+}
+
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+  .wrapper--skill {
+    background-image: url('../img/bg.png');
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .wrapper--home {
+    height: 100%;
+  }
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
